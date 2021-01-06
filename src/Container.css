@@ -1,0 +1,11 @@
+.container-app {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url("./backg.png");
+    background-color: transparent;
+    max-width: 600px;
+    border-color: thistle;
+    border-width: 4px;
+    border-style: double;
+}

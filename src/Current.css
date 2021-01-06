@@ -1,0 +1,18 @@
+.card.today {
+    width: 200px;
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    font-family: "Concert One", cursive;
+    background-color: rgba(160, 130, 130, 0.341);
+  }
+  
+  .card-body {
+    text-align: center;
+    background-color: rgba(160, 130, 130, 0.341);;
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto;
+  }

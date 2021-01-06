@@ -1,0 +1,15 @@
+button {
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    font-family: "Secular One", sans-serif;
+    color: #2f4f67;
+    background-color: #ffcdcc;
+    font-weight: 500;
+    font-family: "Concert One", cursive;
+  }
+  
+  button:hover {
+    background-color: lavender;
+  }
+  
