@@ -1,6 +1,5 @@
 import React from "react";
 import "./Weather.css";
-import WeatherIcon from "./Weathericon.js";
 import Temperature from "./Weathertemp.js";
 import Icon from "./Iconcopy.js";
 
