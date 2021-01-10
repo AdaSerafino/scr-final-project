@@ -7,7 +7,7 @@ import Icon from "./Iconcopy.js";
 export default function Weather(props) {
     return(
         <div className="row"> 
-        
+        n
         <div className="col-7">
     
       <Icon  code={props.data.icon} />
