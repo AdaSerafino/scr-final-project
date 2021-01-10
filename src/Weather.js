@@ -7,9 +7,9 @@ import Icon from "./Iconcopy.js";
 export default function Weather(props) {
     return(
         <div className="row"> 
-        n
+        
         <div className="col-7">
-    
+    npm
       <Icon  code={props.data.icon} />
     
     <h3 className="text-uppercase"> { props.data.city }</h3>
