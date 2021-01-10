@@ -87,10 +87,6 @@
     background-color: #dd90bd;
   }
   
-  .searchTerm:focus{
-    
-    color: #bd699d;
-  }
   
   .searchButton {
     width: 40px;
@@ -110,12 +106,7 @@
   }
   
   
-  ul {
-    text-align: center;
-    
-  }
-  
   .row.forecast {
 
-    padding: 65px;
+  padding: 45px;
   }
