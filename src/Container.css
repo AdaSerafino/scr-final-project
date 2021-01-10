@@ -1,11 +1,57 @@
-.container-app {
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    background-image: url("./backg.png");
+.container {padding: 40px 40px;
     background-color: transparent;
-    max-width: 600px;
-    border-color: thistle;
-    border-width: 4px;
-    border-style: double;
-}
+    background-image: url(./backg.png);
+  }
+  li {
+    text-align: center;
+    font-family: "PT Sans Narrow", sans-serif;
+  }
+  p {
+    text-align: center;
+    font-family: "PT Sans Narrow", sans-serif;
+  }
+
+
+    button:hover {
+      color: darkgray;
+      background-color: darkturquoise;
+
+    }
+  
+  h1 {
+    text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+    text-align: center;
+    font-family: "Bodoni Moda", serif;
+  }
+  
+  h2 {
+    background-color: #3a4fd923;
+    color: #e0eff2;
+    text-shadow: -4px 4px 0 #0a0e271c;
+    font-family: "Open Sans Condensed", sans-serif;
+    text-align: center;
+    font-weight: 400;
+  }
+  
+ 
+  
+
+  .row {
+    
+ padding: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+      rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    margin: 20px;
+    background-color: rgba(143, 112, 141, 0.345);
+  }
+  
+  
+  
+  ul {
+    text-align: center;
+  }
+  
+  
+.search{display: block;
+margin: 0 auto;}

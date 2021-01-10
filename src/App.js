@@ -2,8 +2,11 @@ import Container from "./Container";
 import './App.css';
 
 function App() {
-  return (
-   <Container />
+  return (<div className="app">
+    
+   <Container defaultCity= "Rome"/>
+   <footer>Open-source code by Ada Serafino</footer>
+   </div>
   );
 }
 
