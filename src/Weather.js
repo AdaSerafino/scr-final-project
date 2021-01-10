@@ -1,19 +1,20 @@
 import React from "react";
 import "./Weather.css";
+import WeatherIcon from "./Weathericon.js";
+import Temperature from "./Weathertemp.js";
+
 export default function Weather(props) {
     return(
         <div className="row"> 
         
         <div className="col-7">
     <div>
-      <img
-    alt="description"
-    src={props.data.iconUrl}
+      <WeatherIcon  code={props.data.icon} />
     
-      />
-    <h3> { props.data.city }</h3>
-     <p> {props.data.temperature}° C | F </p>
-     <p>{props.data.description}</p>
+    <h3 className="text-uppercase"> { props.data.city }</h3>
+  
+    <div> <Temperature celsius={props.data.temperature} /></div>
+   
     </div>
     </div>
 
@@ -21,11 +22,11 @@ export default function Weather(props) {
         <div className="col-5">
         <div >
         <br /><br /><br />
-        <p> WIND {props.data.wind} km/h
-                         <br />
+        <p className="text-uppercase"> WIND {props.data.wind} km/h
+             <br />
              HUMIDITY {props.data.humidity} %
-                                           <br/>
-                                             description </p>
+                         <br/>
+                       {props.data.description} </p>
                                          
                                          </div>
                                   

@@ -6,9 +6,12 @@
     text-align: center;
     font-family: "PT Sans Narrow", sans-serif;
   }
-  p {
+  p {font-size: 18px;
+    font-weight: 600;
+    text-decoration: rgba(64, 224, 208, 0.212) underline;
     text-align: center;
     font-family: "PT Sans Narrow", sans-serif;
+    font-style: oblique;
   }
 
 
@@ -19,7 +22,7 @@
     }
   
   h1 {
-    text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+    text-shadow: 0 0 3px #137cdd, 0 0 5px #0e6faf;
     text-align: center;
     font-family: "Bodoni Moda", serif;
   }
@@ -32,6 +35,14 @@
     text-align: center;
     font-weight: 400;
   }
+
+  .unit {font-style: normal;}
+
+  .number{
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 800;
+  }
   
  
   
@@ -43,15 +54,68 @@
       rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
       rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     margin: 20px;
-    background-color: rgba(143, 112, 141, 0.345);
+    background-color: rgba(75, 73, 105, 0.644);
+  }
+
+  
+  body{
+    background: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
   }
   
+  .search { 
+    
+    font-weight: 500;
+    font-family: "Bodoni Moda", serif;
+    width: 100%;
+    position: relative;
+    display: flex;
+    color: thistle;
+  }
+  
+  .searchTerm {
+    border-radius: 15PX;
+    font-family: "Bodoni Moda", serif;
+    width: 100%;
+    border: 3px solid #035964;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #dd90bd;
+    background-color: #dd90bd;
+  }
+  
+  .searchTerm:focus{
+    
+    color: #bd699d;
+  }
+  
+  .searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #cc008f49;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  input {
+    display: inline;
+    font-family: "Bodoni Moda", serif;
+  }
   
   
   ul {
     text-align: center;
+    
   }
   
-  
-.search{display: block;
-margin: 0 auto;}
+  .row.forecast {
+
+    padding: 65px;
+  }

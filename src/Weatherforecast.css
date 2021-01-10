@@ -1,0 +1,11 @@
+.WeatherForecast canvas {display: block;
+margin: 0 auto;}
+
+.WeatherForecast {text-align: center;}
+
+.WeatherForecast.row.one {
+box-shadow: none;
+    background-color: transparent;
+    border: none;
+    margin: 0 auto;
+}
