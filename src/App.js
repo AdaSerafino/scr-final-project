@@ -5,7 +5,7 @@ function App() {
   return (<div className="app">
     
    <Container defaultCity= "Rome"/>
-   <footer>Open-source code by Ada Serafino</footer>
+   <footer><a href="https://github.com/AdaSerafino/scr-final-project">Open-source code</a> by Ada Serafino</footer>
    </div>
   );
 }

@@ -73,11 +73,10 @@ if (weather.ready) {   return(
 </div>
 <Weather  data={weather}/>
 
-<div className="row forecast">
+
          <Weatherforecast  city={weather.city} />
          
-         
-         </div> 
+      
       </div>
 
 

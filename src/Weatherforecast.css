@@ -9,3 +9,7 @@ box-shadow: none;
     border: none;
     margin: 0 auto;
 }
+.WeatherForecastPreview.col {text-shadow: cornflowerblue;
+    font-weight: 600;
+    background-color: rgba(100, 148, 237, 0.363);
+}

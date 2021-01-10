@@ -19,7 +19,7 @@ setUnite("celsius");
 return (
 
     <div>
-         <p className="number"> {Math.round(props.celsius)} </p>
+         <p className="number"> {Math.round(props.celsius)}° </p>
          <p className="unit">
               °C | <a onClick={convertToF} href= "/">°F</a>
           </p>
@@ -31,7 +31,7 @@ return (
         let fahrenheit = (props.celsius * 9/5) + 32;
          return  (
             <div>
-            <p> {Math.round(fahrenheit)} </p>
+            <p className="number"> {Math.round(fahrenheit)}° </p>
             <p className="unit">
                  <a href="/" onClick={convertToC}> °C </a>| °F
              </p>

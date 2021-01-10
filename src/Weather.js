@@ -2,20 +2,22 @@ import React from "react";
 import "./Weather.css";
 import WeatherIcon from "./Weathericon.js";
 import Temperature from "./Weathertemp.js";
+import Icon from "./Iconcopy.js";
+
 
 export default function Weather(props) {
     return(
         <div className="row"> 
         
         <div className="col-7">
-    <div>
-      <WeatherIcon  code={props.data.icon} />
+    
+      <Icon  code={props.data.icon} />
     
     <h3 className="text-uppercase"> { props.data.city }</h3>
   
     <div> <Temperature celsius={props.data.temperature} /></div>
    
-    </div>
+    
     </div>
 
     
