@@ -22,7 +22,7 @@ export default function Weatherforecast(props) {
          <WeatherForPreview data={forecast.list[2] }/>
          <WeatherForPreview data={forecast.list[3] }/>
          <WeatherForPreview data={forecast.list[4] }/>
-         <WeatherForPreview data={forecast.list[5] }/>
+        
 
      </div>
      )
